@@ -1,5 +1,3 @@
-# Nikhil_Neroth_8832694
-
 Project Title: Lab 3
 
 Student ID : 8832694
