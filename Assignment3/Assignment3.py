@@ -43,9 +43,9 @@ time.sleep(4)
 driver.execute_script("window.scrollBy(0,700)","")
 
 # continue to check out page
-check_out=driver.find_element("XPATH","//button[@id='checkout-button']")
-time.sleep(3)
+driver.execute_script("window.scrollBy(0,300)","")
+check_out=driver.find_element("xpath","/html/body/div[1]/div/div/div[3]/div/div[1]/div[2]/div/div/span/div/div/div[5]/button")
 check_out.click()
-
+time.sleep(8)
 # # Closing the webdriver
 driver.close()
